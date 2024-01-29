@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Single Day", cursive;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: black;
+}
+.episodes {
+  width: 100%;
+  height: 100px;
+  /* background-color: aquamarine; */
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.episodes a {
+  background-color: #980a0a;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0b0000;
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+.episodes a:hover {
+  position: relative;
+  color: white;
+  background-color: #0b0000;
+}
+.screen-background {
+  width: 100%;
+  min-height: 500px;
+  background-color: black;
+}
+
+.screen {
+  border: 2px solid #780909;
+  width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+.film-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.film-search button {
+  padding: 7px;
+  background-color: black;
+  border: solid 3px #780909;
+  color: #780909;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.film-search button:hover {
+  background-color: #fff;
+}
