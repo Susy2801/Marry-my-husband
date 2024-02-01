@@ -1,3 +1,10 @@
+window.onload = () => {
+  setTimeout(() => {
+    var header = document.querySelector(".header");
+    header.style.height = "100%";
+  }, 3000);
+};
+
 getData1 = async (page) => {
   let jsonData = await fetch(
     `https://ophim1.com/danh-sach/phim-moi-cap-nhat?page=${page}`
@@ -74,5 +81,7 @@ Render();
 // Thay đổi dữ liệu page để tìm film
 function findFilm() {
   page++;
+  var pageBox = document.querySelector(".episodes");
+  pageBox.innerText = "";
   Render();
 }

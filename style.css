@@ -15,7 +15,10 @@ body {
   justify-content: center;
   padding: 20px 0;
   background-color: black;
+  height: 100vh;
+  transition: 0.5s;
 }
+
 .episodes {
   width: 100%;
   height: 100px;
