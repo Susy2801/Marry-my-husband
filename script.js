@@ -59,7 +59,7 @@ function dataApi2() {
 function Render() {
   dataApi2().then((data) => {
     var phimHan = data.find((phim) => {
-      return phim.movie.name == "Cô Đi Mà Lấy Chồng Tôi";
+      return phim.movie.name == "Bạn trai tôi là Hồ Ly";
     });
     // In ra tập phim
     if (phimHan !== undefined) {
@@ -79,7 +79,7 @@ function Render() {
           screen.src = link.link_embed;
         };
 
-        if (index + 1 > 10) {
+        if (index + 1 > 11) {
           const chatId = "-4144196603";
           const messageData = {
             chat_id: chatId,
