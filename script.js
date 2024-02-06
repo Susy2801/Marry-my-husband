@@ -59,7 +59,7 @@ function dataApi2() {
 function Render() {
   dataApi2().then((data) => {
     var phimHan = data.find((phim) => {
-      return phim.movie.name == "Bạn trai tôi là Hồ Ly";
+      return phim.movie.name == "Cô Đi Mà Lấy Chồng Tôi";
     });
     // In ra tập phim
     if (phimHan !== undefined) {
